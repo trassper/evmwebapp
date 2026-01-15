@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EVM Hessen – Referenz</title>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="EVM Hessen">
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>EVM Algorithmen Hessen</h1>
+
+<button onclick="location.href='location.href='pdf/evm_reanimation_erwachsene.pdf'">
+Reanimation Erwachsene
+</button>
+
+<button onclick="location.href='polytrauma.html'">
+Polytrauma
+</button>
+
+<p class="disclaimer">
+Nur für medizinisches Fachpersonal. Keine Behandlungsanweisung.
+</p>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "EVM Werra-Meißner-Kreis",
+  "short_name": "EVM WMK",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#005ea8"
+}
